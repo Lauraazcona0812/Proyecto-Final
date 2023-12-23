@@ -35,7 +35,7 @@
           %>
         <tbody>
             <%
-                 for( Orador  unProducto : listado) {
+                 for( Orador  unOrador : listado) {
             %>
 
              <tr>
@@ -44,10 +44,8 @@
                 <td><%=unOrador.getApellido() %></td>
                 <td><%=unOrador.getMail() %></td>
                 <td><%=unOrador.getTema() %></td>
-                <td>
-                  <a class="btn btn-danger" href="<%=request.getContextPath()%>/api/EliminarController?id=<%=unOrador.getIdOrador()%>" role="button">Eliminar</a> | 
-                  <a class="btn btn-secondary" href="<%=request.getContextPath()%>/api/EditarController?id=<%=unOrador.getIdOrador()%>" role="button">Editar</a>
-                </td>
+                //
+                
               </tr>
              <%
                   }

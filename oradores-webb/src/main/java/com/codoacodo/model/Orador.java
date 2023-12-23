@@ -9,7 +9,7 @@ public class Orador extends Persona {
     private Timestamp fechaAlta;
     
     //Constructor Vacío
-    public Orador(){}
+    public Orador(String pablo, String iglesias, String pigle_gmailcom, String rock_nacional, Timestamp valueOf){}
         
     //orador con id y timestamp para visualizar registros(select)
     public Orador(Long i, String n, String a, String m, String t, Timestamp ts ) {

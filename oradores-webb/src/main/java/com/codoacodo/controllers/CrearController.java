@@ -9,9 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.codoacodo.dao.OradorDAO;
+import com.codoacodo.model.Orador;
 
-/*HERENCIA*/
-//Create Controller es hijo de :
 @WebServlet("/api/CrearController")
 public class CrearController extends HttpServlet {
     @Override
@@ -28,8 +27,8 @@ public class CrearController extends HttpServlet {
         // Crear una instancia de OradorDAO
         OradorDAO dao = new OradorDAO();
 
-        // Llamar al método crearOrador
-        dao.crearOrador(nuevoOrador);
+        // Llamar al método insertarOrador
+        dao.insertarOrador(nuevoOrador);
 
         resp(resp, req);
     }

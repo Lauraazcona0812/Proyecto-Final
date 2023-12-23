@@ -17,14 +17,12 @@
                           <input name="nombre"  type="text" class="form-control" id="nombreTextarea" placeholder="Nombre" maxlength="50">
                         </div>
                         <div class="my-3 mx-3">
-                          <input name="precio" type="number" class="form-control" id="precioNumber" placeholder="Precio">
+                          <input name="apellido" type="number" class="form-control" id="apellidoNumber" placeholder="Apellido">
                         </div>
                         <div class="my-3 mx-3">
-                          <input name="hechoEn" type="text" class="form-control" id="hechoTextarea" placeholder="Hecho en" maxlength="50">
+                          <input name="mail" type="text" class="form-control" id="mail" placeholder="Tema" maxlength="50">
                         </div>
-                        <div class="my-3 mx-3">
-                          <input name="codigo" type="text" class="form-control" id="codigoTextarea" maxlength="7" placeholder="Código">
-                        </div>
+                        
                         <button class="btn btn-primary my-3">
                             Dar de alta
                         </button>

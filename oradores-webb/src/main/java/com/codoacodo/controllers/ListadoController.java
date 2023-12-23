@@ -21,7 +21,7 @@ public class ListadoController extends HttpServlet {
 		OradorDAO dao = new OradorDAO();
 		
 		//invocar al metodo listarProductos()
-		List<Orador> listado = dao.listarOradorDAO();
+		List<Orador> listado = dao.selectOradores();
 		
 		//grabar el listado en el request para que lo vea la siguiente pagina
 		req.setAttribute("listado", listado);
